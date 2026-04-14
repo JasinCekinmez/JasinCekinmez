@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasin Cekinmez</title>
+
+    <!-- Academic-style font -->
+    <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            margin: 0;
+            background-color: #ffffff;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+
+        header img {
+            width: 330px;
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 32px;   /* try 40–48 */
+            font-weight: 700;
+            margin: 0;
+}
+
+        .subtitle {
+            font-family: Inter, sans-serif;
+            color: #555;
+            font-size: 20px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-top: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .item {
+            margin: 15px 0;
+        }
+
+        .item-title {
+            font-weight: bold;
+        }
+
+        .item-meta {
+            font-family: Inter, sans-serif;
+            font-size: 13px;
+            color: #666;
+        }
+
+        a {
+            color: #1a5fb4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .links {
+            margin-top: 10px;
+            font-family: Inter, sans-serif;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <img src="/Users/jasincekinmez/JasinCekinmez/IMG_0564.jpg" alt="Profile Picture">
+        <div>
+            <h1>Jasin Cekinmez</h1>
+            <div class="subtitle">
+                Princeton University · Applied Math & CS
+                Email: jasincekinmez@princeton.edu
+            </div>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/jasincekinmez/">LinkedIn</a> 
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h2>About</h2>
+        <p>
+            I am an undergraduate at Princeton University with interests in machine learning,
+            multimodal reasoning, and data-centric AI. My work focuses on evaluating model
+            behavior, understanding reasoning limitations, and building robust benchmarks.
+        </p>
+    </section>
+
+
+
+    <section>
+        <h2>Experience</h2>
+
+
+
+        <div class="item">
+            <div class="item-title">Incoming Software Engineer Intern</div>
+            <div class="item-meta">Teradata · 2026 · San Diego, CA</div>
+            <p>
+                Stay tuned...
+            </p>
+        </div>
+
+        <div class="item">
+            <div class="item-title">Machine Learning Researcher</div>
+            <div class="item-meta">Qatar Computing Research Institute  · 2025 · Doha, Qatar</div>
+            <p>
+                See ADAM
+            </p>
+        </div>
+
+    </section>
+
+
+
+    <section>
+        <h2>Publications</h2>
+
+        <div class="item">
+            <div class="item-title">
+                Query Timing Produces Opposite Positional Biases Between LLMs and Humans
+            </div>
+            <div class="item-meta">
+                Jasin Cekinmez*, Addison J. Wu*, Thomas L. Griffiths · ICLR ICBINB 2026
+            </div>
+            <p>
+                Investigated how response structure affects positional bias in large language models,
+                revealing systematic differences between human and model reasoning.
+            </p>
+            <a href="https://openreview.net/forum?id=IgMZ1qT7iR&referrer=%5Bthe%20profile%20of%20Thomas%20L.%20Griffiths%5D(%2Fprofile%3Fid%3D~Thomas_L._Griffiths1)">Paper</a>
+        </div>
+
+        <div class="item">
+            <div class="item-title">
+                Guess the unified model: Domain and Linguistic Effects in Generated Images
+            </div>
+            <div class="item-meta">
+                Jasin Cekinmez*, Ryo Mitsuhashi*, Yida Yin · ICLR DATA-FM 2026
+            </div>
+            <p>
+                Investigated model-of-origin attribution in unified model-generated images, demonstrating near-perfect separability across models.
+                Showed that attribution remains robust to corruptions and domain shifts, revealing consistent model-specific visual signatures.
+            </p>
+            <a href="https://openreview.net/forum?id=QhXV6RDQ11">Paper</a>
+        </div>
+        <div class="item">
+            <div class="item-title">
+                ADAM: A Diverse Archive of Mankind for Evaluating and Enhancing LLMs in Biographical Reasoning
+            </div>
+            <div class="item-meta">
+                Jasin Cekinmez*, Omid Ghahroodi*, Saad Fowad Chandle, Dhiman Gupta, Ehsaneddin Asgari · ArXiv
+            </div>
+            <p>
+                Introduced ADAM, a large-scale multilingual and multimodal framework for evaluating biographical reasoning in MLLMs.
+                Showed that retrieval via AdamRAG significantly improves accuracy, especially for lesser-known individuals, while highlighting persistent challenges tied to popularity and reasoning complexity.
+            </p>
+            <a href="https://arxiv.org/abs/2509.22991">Paper</a>
+        </div>
+
+    </section>
+
+  
+    <section>
+        <h2>Projects</h2>
+    
+        <div class="project-item">
+            <div class="item-title">
+                We analyzed the past decade of senior theses. Here are six takeaways.
+            </div>
+            <div class="item-meta">
+                Nathan Beck and Jasin Cekinmez · Daily Princetonian April 28, 2025 
+            </div>
+            <p>
+                Analyzed over 9,000 Princeton University senior theses using NLP to track changes in length, readability, and content over a decade. 
+                Found that theses have become slightly shorter and more complex, with no clear evidence of increased AI-generated writing despite the rise of tools like ChatGPT.
+            </p>
+            <a href="https://www.dailyprincetonian.com/article/2025/04/princeton-data-research-thesis-analysis-sentiment">Article</a> 
+            <br>
+        </div>
+        <br>
+        <div class="project-item">
+            <div class="item-title">
+                How many Princeton students are ‘weeded out’ from their major? We broke it down.
+            </div>
+            <div class="item-meta">
+                Nathan Beck and Jasin Cekinmez · Daily Princetonian October 7, 2024
+            </div>
+            <p>
+                Analyzed major declaration patterns at Princeton University, showing that STEM fields, especially natural sciences and engineering, see significant drop-off from intended to declared majors.
+                Findings suggest early coursework and perceived difficulty drive switching, while social sciences tend to retain or even gain students over time.
+            </p>
+            <a href="https://www.dailyprincetonian.com/article/2024/10/princeton-data-declaration-day-class-of-2024-2025-2026-survey-analysis">Article</a>
+        </div>
+    
+    </section>
+
+
+
+
+
+
+    <section>
+        <h2>Puzzles</h2>
+        <div class="item">
+            <div class="item-title">New York Times Crossword</div>
+            <div class="item-meta">July 16th, 2025</div>
+            <p>
+                DEBUT!!!
+            </p>
+            <a href="https://www.nytimes.com/2025/07/15/crosswords/daily-puzzle-2025-07-16.html">Puzzle</a>
+        </div>
+
+        <div class="item">
+            <div class="item-title">Daily Princetonian Crosswords</div>
+            <div class="item-meta"></div>
+            <p>
+                Led the associate director position and made 6 puzzles over my time there
+            </p>
+            <a href="https://www.dailyprincetonian.com/staff/jasin">Puzzles</a>
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>
